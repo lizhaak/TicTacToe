@@ -1,0 +1,29 @@
+table {
+	width: 50%;
+	border-spacing: 0px;
+	border: solid 1px black;
+}
+
+.box {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.noMoreClicks {
+	pointer-events: none;
+}
+
+#resetGame {
+	background-color: orange;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#playersTurn{
+	font-size: 20px;
+	margin: 5px;
+	color: blue;
+}
